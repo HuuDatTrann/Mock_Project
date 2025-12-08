@@ -1,0 +1,79 @@
+pipeline {
+    agent any
+
+    environment {
+        IMAGE_NAME    = "cms-api"
+        IMAGE_TAG     = "latest"
+        AWS_REGION    = "ap-southeast-1"
+        AWS_ACCOUNT_ID = "123456789012"
+        ECR_REPO      = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${IMAGE_NAME}"
+        DEPLOY_TO_K8S = "false" // set "true" nếu muốn deploy qua K8s
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Build .NET') {
+            steps {
+                dir('backend/src/Cms.Api') {
+                    sh 'dotnet restore'
+                    sh 'dotnet build -c Release'
+                }
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo 'No unit tests yet - placeholder'
+            }
+        }
+
+        stage('Docker Build & Push') {
+            steps {
+                script {
+                    sh '''
+                    cd backend
+                    docker build -t ${IMAGE_NAME}:${IMAGE_TAG} .
+                    aws ecr get-login-password --region ${AWS_REGION} | docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com
+                    docker tag ${IMAGE_NAME}:${IMAGE_TAG} ${ECR_REPO}:${IMAGE_TAG}
+                    docker push ${ECR_REPO}:${IMAGE_TAG}
+                    '''
+                }
+            }
+        }
+
+        stage('Deploy VM via Terraform') {
+            steps {
+                dir('infra/terraform') {
+                    sh '''
+                    terraform init
+                    terraform apply -auto-approve
+                    '''
+                }
+            }
+        }
+
+        stage('Deploy to Kubernetes') {
+            when {
+                expression { return env.DEPLOY_TO_K8S == 'true' }
+            }
+            steps {
+                sh '''
+                kubectl apply -f k8s/deployment.yaml
+                kubectl apply -f k8s/service.yaml
+                kubectl apply -f k8s/ingress.yaml
+                '''
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Pipeline finished.'
+        }
+    }
+}
