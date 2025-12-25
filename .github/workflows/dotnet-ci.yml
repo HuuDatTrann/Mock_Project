@@ -33,3 +33,9 @@ jobs:
       run: |
         cd backend/src/Cms.Api
         dotnet publish -c Release -o publish --no-build
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: cms-api
+        path: backend/src/Cms.Api/publish
