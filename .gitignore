@@ -56,3 +56,8 @@ nunit-*.xml
 # Visual Studio cache (IMPORTANT)
 .vs/
 **/.vs/
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
