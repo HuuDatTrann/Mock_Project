@@ -35,3 +35,42 @@ D:\AWS Devops\cms-mock-k8s-project\backend\src\Cms.Api\obj\Debug\net8.0\refint\C
 D:\AWS Devops\cms-mock-k8s-project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.pdb
 D:\AWS Devops\cms-mock-k8s-project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.genruntimeconfig.cache
 D:\AWS Devops\cms-mock-k8s-project\backend\src\Cms.Api\obj\Debug\net8.0\ref\Cms.Api.dll
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.dll
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\refint\Cms.Api.dll
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.pdb
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\appsettings.json
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\Cms.Api.staticwebassets.endpoints.json
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\Cms.Api.exe
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\Cms.Api.deps.json
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\Cms.Api.runtimeconfig.json
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\Cms.Api.dll
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\Cms.Api.pdb
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\devops\Mock_Project\backend\src\Cms.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.csproj.AssemblyReference.cache
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.GeneratedMSBuildEditorConfig.editorconfig
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.AssemblyInfoInputs.cache
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.AssemblyInfo.cs
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.csproj.CoreCompileInputs.cache
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.MvcApplicationPartsAssemblyInfo.cs
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.MvcApplicationPartsAssemblyInfo.cache
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.sourcelink.json
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\scopedcss\bundle\Cms.Api.styles.css
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\staticwebassets.build.json
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\staticwebassets.build.json.cache
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\staticwebassets.development.json
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\swae.build.ex.cache
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.csproj.Up2Date
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\Cms.Api.genruntimeconfig.cache
+F:\devops\Mock_Project\backend\src\Cms.Api\obj\Debug\net8.0\ref\Cms.Api.dll

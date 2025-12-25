@@ -17,6 +17,18 @@
         }
       }
     },
+    "/health": {
+      "get": {
+        "tags": [
+          "Cms.Api"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Posts": {
       "get": {
         "tags": [
